@@ -28,7 +28,11 @@ export const ItemImage: React.FC = () => {
           {imageUrlList.map((url, index) => {
             return (
               <div key={index} className={style.embla__slide}>
-                <img src={url} alt="商品画像" style={{ width: "100%" }} />
+                <img
+                  src={url}
+                  alt="商品画像"
+                  style={{ width: "100%", maxWidth: "528px" }}
+                />
               </div>
             );
           })}
