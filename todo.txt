@@ -1,3 +1,0 @@
-画像上のabsoluteIcon
-header
-header 追尾
